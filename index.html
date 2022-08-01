@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息</title>
+    <link rel="icon" href="./jpg/fafa.png" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url("jpg/5.jpg") no-repeat;
+            background-size: cover;
+        }
+
+        .box {
+            width: 1400px;
+            height: 540px;
+            background: rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+
+            margin-top: 7%;
+
+        }
+
+        .box .left a {
+            display: block;
+            width: 200px;
+            height: 90px;
+            background: rgba(0, 0, 0, 0.2);
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            padding-left: 30px;
+            line-height: 90px;
+        }
+
+        .box .left a:hover {
+            background-color: #ff6700;
+        }
+
+        .left {
+            float: left;
+            text-align: center;
+            width: 230px;
+            height: 540px;
+            background-color: cadetblue;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .right {
+            float: right;
+            width: 1170px;
+            height: 540px;
+            background-color: rgba(152, 233, 233, 0.2);
+            ;
+
+        }
+
+
+        .right .one {
+
+            float: left;
+            width: 870px;
+            height: 540px;
+            background-color: rgb(152, 233, 233, 0.2);
+        }
+
+
+
+        .right .one h1 {
+            text-align: center;
+            color: white;
+            font-size: 60px;
+        }
+
+        .right .one li {
+            font-size: 15px;
+            font-weight: 500;
+            color: rgb(00, 00, 00);
+            font-style: italic;
+        }
+
+        .right .one p {
+            font-size: 20px;
+            font-weight: 800;
+            color: rgb(00, 00, 00);
+            font-style: italic;
+        }
+
+        #rt {
+            float: right;
+            width: 300px;
+            height: 540px;
+            overflow: hidden;
+        }
+
+        #photo {
+            width: 900px;
+            animation: switch 5s ease-out infinite;
+        }
+
+        #photo>img {
+            float: left;
+            width: 300px;
+            height: 540px;
+        }
+
+        @keyframes switch {
+
+            0%,
+            25% {
+                margin-left: 0;
+            }
+
+            35%,
+            60% {
+                margin-left: -300px;
+            }
+
+            70%,
+            100% {
+                margin-left: -600px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">
+            <a href="#">主页</a>
+            <a href="boke.html" target="_blank">博客</a>
+            <a href="https://daxigua.liyupi.com" target="_blank">娱乐</a>
+            <a href="https://github.com/hl1206905735/" target="_blank">作品</a>
+            <a href="#" target="_blank">留言</a>
+            <a href="#" target="_blank">未完待续...</a>
+        </div>
+        <div class="right">
+            <div class="one">
+                <h1>个人简历</h1>
+                <hr width="80%" />
+                <div>
+                    <p>姓名：八斗</p><br />
+                    <p>班级：bilibili</p><br />
+                    <p>学号：123456789</p><br />
+                </div>
+                <hr width="80%">
+                <div>
+                    <b>简介:</b><br />
+
+                    <li>籍贯:地球</li>
+                    <li>毕业院校:家里蹲</li>
+                    <li>格言:我与我周旋久,宁做我.</li>
+
+                    <b>爱好:</b><br />
+
+                    <li>美食</li>
+                    <li>看书</li>
+                    <li>视频剪辑</li>
+                    <li>主机游戏</li>
+
+
+                </div>
+                <hr width="80%">
+                <div>
+                    <b>联系方式:</b><br />
+                    <i>TEL:19170218318</i><br />
+                    <a href="https://mail.163.com">
+                        <address> E-mail:123456789@163.com</address>
+                    </a>
+                </div>
+
+            </div>
+            <div id="rt">
+                <div id="photo">
+                    <img src="jpg/3.jpg" alt="0">
+                    <img src="jpg/2.jpg" alt="1">
+                    <img src="jpg/1.jpg" alt="2">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
